@@ -29,7 +29,7 @@ from polygon import RESTClient
 
 # ========== USER CONFIG ==========
 # Prefer env var, fallback to a literal string if you insist (not recommended for security).
-API_KEY_FALLBACK = "__xM31vthosrQau8asNbRQdjYjzcjnJh"  # e.g., "your-rest-api-key-here"
+API_KEY_FALLBACK = ""  # e.g., "your-rest-api-key-here"
 API_KEY = os.getenv("POLYGON_API_KEY", API_KEY_FALLBACK)
 
 ASSETS = ["BTC-USD", "VOO", "VUG", "GLDM", "SPY"]
