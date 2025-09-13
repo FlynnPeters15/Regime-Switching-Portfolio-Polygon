@@ -10,7 +10,8 @@
 
 ## Overview
 
-This repository contains a **quantitative trading research project** that implements regime-switching portfolio allocation using **Hidden Markov Models (HMMs)**. The system analyzes asset features, infers market regimes, and applies pre-defined allocation rules to optimize risk/return. Performance is benchmarked against a **buy-and-hold SPY portfolio**.
+This repository contains a **quantitative trading research project** that implements regime-switching portfolio allocation using **Hidden Markov Models (HMMs)**.  
+The example implementation is based on **my personal portfolio** of BTC-USD, VOO, VUG, and GLDM, benchmarked against SPY. However, the framework is flexible — anyone is welcome to add their own assets into the model by editing the `ASSETS` list and updating the allocation policy. This makes the project both a teaching tool and a customizable backtesting framework.
 
 ---
 
